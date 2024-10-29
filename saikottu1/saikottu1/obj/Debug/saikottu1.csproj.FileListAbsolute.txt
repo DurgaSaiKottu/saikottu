@@ -1,7 +1,0 @@
-C:\DotNet Assignment\New folder\saikottu1\saikottu1\obj\Debug\saikottu1.csproj.AssemblyReference.cache
-C:\DotNet Assignment\New folder\saikottu1\saikottu1\obj\Debug\saikottu1.csproj.CoreCompileInputs.cache
-C:\DotNet Assignment\New folder\saikottu1\saikottu1\bin\Debug\saikottu1.exe.config
-C:\DotNet Assignment\New folder\saikottu1\saikottu1\bin\Debug\saikottu1.exe
-C:\DotNet Assignment\New folder\saikottu1\saikottu1\bin\Debug\saikottu1.pdb
-C:\DotNet Assignment\New folder\saikottu1\saikottu1\obj\Debug\saikottu1.exe
-C:\DotNet Assignment\New folder\saikottu1\saikottu1\obj\Debug\saikottu1.pdb
