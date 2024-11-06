@@ -10,17 +10,17 @@ namespace assessment1
     {
         public void exchange(string str)
         {
-            string s = "";
+            string s1 = "";
             int l = str.Length;
-            string fp = Convert.ToString(str[0]);
-            string lp = Convert.ToString(str[l - 1]);
-            s += lp;
+            string a = Convert.ToString(str[0]);
+            string b = Convert.ToString(str[l - 1]);
+            s1 += b;
             for (int i = 1; i < str.Length - 1; i++)
             {
-                s = s + str[i];
+                s1 = s1 + str[i];
             }
-            s += fp;
-            Console.WriteLine("the result is {0}", s);
+            s1 += b;
+            Console.WriteLine("the result is {0}", s1);
         }
         static void Main()
         {

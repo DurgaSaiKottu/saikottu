@@ -5,3 +5,10 @@ C:\DotNet Assignment\C# Assignment\Csharp\assignments\assignment3\assignment3\as
 C:\DotNet Assignment\C# Assignment\Csharp\assignments\assignment3\assignment3\assignment3\obj\Debug\assignment3.csproj.CoreCompileInputs.cache
 C:\DotNet Assignment\C# Assignment\Csharp\assignments\assignment3\assignment3\assignment3\obj\Debug\assignment3.exe
 C:\DotNet Assignment\C# Assignment\Csharp\assignments\assignment3\assignment3\assignment3\obj\Debug\assignment3.pdb
+C:\DotNet Assignment\C# Training\Csharp\assignments\assignment3\assignment3\assignment3\obj\Debug\assignment3.csproj.AssemblyReference.cache
+C:\DotNet Assignment\C# Training\Csharp\assignments\assignment3\assignment3\assignment3\obj\Debug\assignment3.csproj.CoreCompileInputs.cache
+C:\DotNet Assignment\C# Training\Csharp\assignments\assignment3\assignment3\assignment3\obj\Debug\assignment3.exe
+C:\DotNet Assignment\C# Training\Csharp\assignments\assignment3\assignment3\assignment3\obj\Debug\assignment3.pdb
+C:\DotNet Assignment\C# Training\Csharp\assignments\assignment3\assignment3\assignment3\bin\Debug\assignment3.exe.config
+C:\DotNet Assignment\C# Training\Csharp\assignments\assignment3\assignment3\assignment3\bin\Debug\assignment3.exe
+C:\DotNet Assignment\C# Training\Csharp\assignments\assignment3\assignment3\assignment3\bin\Debug\assignment3.pdb

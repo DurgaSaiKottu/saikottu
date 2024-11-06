@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>assignment3.sales</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,9 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Account.cs" />
+    <Compile Include="EqualsString.cs" />
     <Compile Include="ReverseString.cs" />
+    <Compile Include="Sales.cs" />
     <Compile Include="StringLength.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="student.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
