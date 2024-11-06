@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3D913AC9-1622-4531-86A8-9FF9E60BA3C9}</ProjectGuid>
+    <ProjectGuid>{BAD9E5EB-ECEF-47F6-90C1-90DC1A8C44B7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>assignment2</RootNamespace>
-    <AssemblyName>assignment2</AssemblyName>
+    <RootNamespace>assessment1</RootNamespace>
+    <AssemblyName>assessment1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>assignment2.program6</StartupObject>
+    <StartupObject>assessment1.progarm2</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,12 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program1.cs" />
-    <Compile Include="program2.cs" />
+    <Compile Include="CharacterPostion.cs" />
+    <Compile Include="progarm2.cs" />
     <Compile Include="program3.cs" />
-    <Compile Include="program4.cs" />
-    <Compile Include="program5.cs" />
-    <Compile Include="program6.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
