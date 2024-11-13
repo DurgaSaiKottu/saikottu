@@ -19,7 +19,7 @@ namespace assessment1
             {
                 s1 = s1 + str[i];
             }
-            s1 += b;
+            s1 += a;
             Console.WriteLine("the result is {0}", s1);
         }
         static void Main()
