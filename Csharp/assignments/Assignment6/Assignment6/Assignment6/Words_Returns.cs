@@ -8,7 +8,7 @@ namespace Assignment6
 {
     class Words_Returns
     {
-        // Write a query that returns words starting with letter 'a' and ending with letter 'm'.
+       
         static void Main()
         {
             Console.WriteLine("Enter a sentence to find the words starts with A and ends with m");
