@@ -82,8 +82,7 @@ select*from Employee
 -----Display the Names of the Employee in lower case, whose salary is null
 select LOWER(Ename) from Employee where Salary is null
 
-
---------------------------customers------------------------
+ -------------------------customers------------------------
 
 create table CUSTOMERS ( ID int primary key,NAME varchar(20), AGE int, ADDRESS varchar(30), SALARY float);
  
@@ -115,3 +114,5 @@ from orders
 group by date;
 
  
+------- Display the Name for the customer from above customer table  who live in same address which has character o anywhere in address
+select Ename from Employee where Addres like'%o%'
