@@ -51,6 +51,8 @@ where empno=2
 delete from  Employee1
 where empno=1
 
+rollback
+
 commit
  
  --5.      Create a user defined function calculate Bonus for all employees of a  given dept using 	following conditions
