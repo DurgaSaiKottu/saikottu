@@ -51,32 +51,6 @@ SELECT * FROM  T_Coursedetails
 
 ---3.Write a stored Procedure that inserts records in the ProductsDetails table
 
-create table Products_Details (
-    ProductId int identity(1,1) primary key,
-    ProductName varchar(30),
-    Price float not null,
-    DiscountedPrice float
-);
- 
-create procedure Insert_Products
-    @ProductName varchar(30),
-    @Price float
-as
-begin
-    declare @ProductId int;
-    declare @DiscountedPrice float;
- 
-    set @DiscountedPrice = @Price - (@Price * 0.10);
-    insert into Products_Details(ProductName, Price, DiscountedPrice)
-    values (@ProductName, @Price, @DiscountedPrice);
- 
-    set @ProductId = SCOPE_IDENTITY();
- 
-    select @ProductId as ProductId, @DiscountedPrice as DiscountedPrice;
-end;
- 
- drop table ProductsDetails
-
  CREATE TABLE ProductsDetails(
 ProductID INT IDENTITY(1,1),
 ProductName VARCHAR(20),
@@ -95,8 +69,5 @@ EXEC ProdDetailsInsertion
 @Price = 20000,
 @ProductID = @NewProductID OUTPUT
  
- drop PROCEDURE ProdDetailsInsertion
-
-
  SELECT @NewProductID as ProductID
 SELECT * FROM ProductsDetails
